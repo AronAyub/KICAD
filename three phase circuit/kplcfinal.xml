@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\ADMIN\Desktop\ss-trech\FINALFINAL\mbed\Digi-eye\SMART GRID\kplcfinal.sch</source>
+    <date>10/29/2019 10:33:14 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>smart grid</title>
+        <company>s-techaftica</company>
+        <rev/>
+        <date>25 oct 2019</date>
+        <source>kplcfinal.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB37FD3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB3D29D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB3CC86</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB3C020</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB2EAFE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2A103J</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB3E46C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2A103J</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB409C2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF 16v</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB41248</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB42A4C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB42EEE</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB4A88F</tstamp>
+    </comp>
+    <comp ref="1Mohm2">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB4B650</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2A104J</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB4ECAF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM3578</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm3578a.pdf</datasheet>
+      <libsource lib="dc-dc" part="LM3578" description="750mA, Switching Regulator, adjustable output voltage, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB4963F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB36C6D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB35FB4</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB32992</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007-T_NRND</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB2DE4C</tstamp>
+    </comp>
+    <comp ref="1Mohm1">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB96DC4</tstamp>
+    </comp>
+    <comp ref="1Mohm4">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB96DCE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2A104J</value>
+      <footprint>Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB96DE0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM3578</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm3578a.pdf</datasheet>
+      <libsource lib="dc-dc" part="LM3578" description="750mA, Switching Regulator, adjustable output voltage, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB96DF1</tstamp>
+    </comp>
+    <comp ref="1Mohm3">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9AE7B</tstamp>
+    </comp>
+    <comp ref="1Mohm5">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9AE85</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>2A104J</value>
+      <footprint>Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9AE97</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM3578</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm3578a.pdf</datasheet>
+      <libsource lib="dc-dc" part="LM3578" description="750mA, Switching Regulator, adjustable output voltage, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9AEA7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2.2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1DFB</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E05</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E0F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E19</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2A103J</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E26</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2A103J</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E38</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF 16v</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E42</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E4C</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>47uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB1E56</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA74A</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA754</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA75E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA768</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>2A103J</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA775</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2A103J</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA787</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF 16v</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA791</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA79B</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBA7A5</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC7868</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC787B</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC788E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC78A1</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD4E09</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD4E1C</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD4E2F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4007-T_NRND</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND" description="DIODE GEN PURP 1KV 1A DO41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD4E42</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>2A123J</value>
+      <footprint>Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC25955</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>2A123J</value>
+      <footprint>Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC389A1</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>2A104J</value>
+      <footprint>Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC4B8E9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB92B4D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1_Small">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dc-dc" part="LM3578">
+      <aliases>
+        <alias>LM2578</alias>
+      </aliases>
+      <description>750mA, Switching Regulator, adjustable output voltage, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm3578a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM3578</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E-" type="input"/>
+        <pin num="2" name="E+" type="input"/>
+        <pin num="3" name="CAP" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="E" type="openEm"/>
+        <pin num="6" name="C" type="openCol"/>
+        <pin num="7" name="ILIM" type="input"/>
+        <pin num="8" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Diodes-Rectifiers-Single" part="1N4007-T_NRND">
+      <description>DIODE GEN PURP 1KV 1A DO41</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds28002.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007-T_NRND</field>
+        <field name="Footprint">digikey-footprints:DO-41</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="Digi-Key_PN">1N4007DICT-ND</field>
+        <field name="MPN">1N4007-T</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4007-T/1N4007DICT-ND/76454</field>
+        <field name="Description">DIODE GEN PURP 1KV 1A DO41</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="passive"/>
+        <pin num="K" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="dc-dc">
+      <uri>C:/Users/ADMIN/Downloads/Compressed/kicad-library-masterm/library/dc-dc.lib</uri>
+    </library>
+    <library logical="dk_Diodes-Rectifiers-Single">
+      <uri>C:/Users/ADMIN/Downloads/Compressed/digikey-kicad-library-master/digikey-symbols/dk_Diodes-Rectifiers-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SG3">
+      <node ref="C7" pin="1"/>
+      <node ref="D12" pin="K"/>
+      <node ref="D11" pin="K"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C11-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="6" name="/GND">
+      <node ref="C5" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="1Mohm2" pin="2"/>
+      <node ref="D12" pin="A"/>
+      <node ref="D8" pin="K"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C18" pin="1"/>
+      <node ref="1Mohm4" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D10" pin="A"/>
+      <node ref="D6" pin="K"/>
+      <node ref="U3" pin="4"/>
+      <node ref="1Mohm5" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D4" pin="A"/>
+      <node ref="D2" pin="K"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="7" name="/SG2">
+      <node ref="R6" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D9" pin="K"/>
+      <node ref="D10" pin="K"/>
+    </net>
+    <net code="8" name="Net-(C12-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="12" name="/A0">
+      <node ref="R16" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="13" name="/A1">
+      <node ref="1Mohm1" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="14" name="/VCC">
+      <node ref="U3" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="15" name="/A2">
+      <node ref="U3" pin="1"/>
+      <node ref="1Mohm3" pin="1"/>
+    </net>
+    <net code="16" name="/L2">
+      <node ref="D5" pin="K"/>
+      <node ref="D9" pin="A"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="17" name="/N">
+      <node ref="D6" pin="A"/>
+      <node ref="D5" pin="A"/>
+      <node ref="D7" pin="A"/>
+      <node ref="D8" pin="A"/>
+      <node ref="D2" pin="A"/>
+      <node ref="D1" pin="A"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="18" name="/L3">
+      <node ref="D7" pin="K"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D11" pin="A"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="20" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(1Mohm2-Pad1)">
+      <node ref="1Mohm2" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="24" name="/L1">
+      <node ref="J1" pin="4"/>
+      <node ref="D3" pin="A"/>
+      <node ref="D1" pin="K"/>
+    </net>
+    <net code="25" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="28" name="Net-(1Mohm3-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="1Mohm3" pin="2"/>
+      <node ref="1Mohm5" pin="1"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="30" name="Net-(1Mohm1-Pad2)">
+      <node ref="1Mohm4" pin="1"/>
+      <node ref="1Mohm1" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="31" name="/SG1">
+      <node ref="R1" pin="1"/>
+      <node ref="D3" pin="K"/>
+      <node ref="D4" pin="K"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="33" name="Net-(C14-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="C14" pin="2"/>
+    </net>
+  </nets>
+</export>

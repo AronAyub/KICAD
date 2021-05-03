@@ -1,0 +1,182 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Variable
+#
+DEF Device_C_Variable C 0 10 N N 1 F N
+F0 "C" 25 -75 50 H V L CNN
+F1 "Device_C_Variable" 25 -150 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+P 2 0 1 12 50 100 -50 -100 N
+P 2 0 1 12 50 100 20 90 N
+P 2 0 1 12 50 100 60 70 N
+X ~ 1 0 150 120 D 50 50 1 1 P
+X ~ 2 0 -150 120 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L
+#
+DEF Device_L L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Microphone
+#
+DEF Device_Microphone MK 0 1 Y N 1 F N
+F0 "MK" -150 50 50 H V R CNN
+F1 "Device_Microphone" -150 -25 50 H V R CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
+DRAW
+C 0 0 100 0 1 10 N
+P 2 0 1 10 -100 100 -100 -100 N
+P 2 0 1 0 10 150 30 150 N
+P 2 0 1 0 20 160 20 140 N
+X - 1 0 -200 100 U 50 50 1 1 P
+X + 2 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_RF-Antennas_2450AT18A100E
+#
+DEF dk_RF-Antennas_2450AT18A100E ANT 0 0 Y Y 1 F N
+F0 "ANT" 0 100 60 H V C CNN
+F1 "dk_RF-Antennas_2450AT18A100E" 0 -100 60 H V C CNN
+F2 "digikey-footprints:Antenna_1.6x3.2mm_2450AT18A100E" 200 200 60 H I L CNN
+F3 "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf" 200 300 60 H I L CNN
+F4 "712-1005-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "2450AT18A100E" 200 500 60 H I L CNN "MPN"
+F6 "RF/IF and RFID" 200 600 60 H I L CNN "Category"
+F7 "RF Antennas" 200 700 60 H I L CNN "Family"
+F8 "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/johanson-technology-inc/2450AT18A100E/712-1005-1-ND/1560834" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "RF ANT 2.4GHZ CHIP SOLDER SMD" 200 1000 60 H I L CNN "Description"
+F11 "Johanson Technology Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -100 50 100 -50 0 1 0 f
+P 2 0 1 0 25 0 50 -25 N
+P 2 0 1 0 25 0 50 0 N
+P 3 0 1 0 -75 0 25 0 50 25 N
+X FP 1 -200 0 100 R 50 50 1 1 I
+X NC 2 200 0 100 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# dk_Terminal-Blocks-Wire-to-Board_OSTTC020162
+#
+DEF dk_Terminal-Blocks-Wire-to-Board_OSTTC020162 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Terminal-Blocks-Wire-to-Board_OSTTC020162" 50 -100 50 H V C CNN
+F2 "digikey-footprints:Term_Block_1x2_P5mm" 200 200 60 H I L CNN
+F3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 300 60 H I L CNN
+F4 "ED2600-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "OSTTC020162" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Terminal Blocks - Wire to Board" 200 700 60 H I L CNN "Family"
+F8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-shore-technology-inc/OSTTC020162/ED2600-ND/614549" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TERM BLK 2POS SIDE ENTRY 5MM PCB" 200 1000 60 H I L CNN "Description"
+F11 "On Shore Technology Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 25 1 1 0 N
+C 100 0 25 1 1 0 N
+S -50 100 150 -50 1 1 0 f
+P 2 1 1 0 0 25 0 -25 N
+P 2 1 1 0 25 0 -25 0 N
+P 2 1 1 0 75 0 125 0 N
+P 2 1 1 0 100 25 100 -25 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Transistors-Bipolar-BJT-Single_2N2222A
+#
+DEF dk_Transistors-Bipolar-BJT-Single_2N2222A Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "dk_Transistors-Bipolar-BJT-Single_2N2222A" 206 0 60 V V C CNN
+F2 "digikey-footprints:TO-18-3" 200 200 60 H I L CNN
+F3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221A.PDF" 200 300 60 H I L CNN
+F4 "2N2222ACS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "2N2222A" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221A.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/central-semiconductor-corp/2N2222A/2N2222ACS-ND/4806845" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN 40V 0.8A TO-18" 200 1000 60 H I L CNN "Description"
+F11 "Central Semiconductor Corp" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X E 1 100 -200 100 U 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 I
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
