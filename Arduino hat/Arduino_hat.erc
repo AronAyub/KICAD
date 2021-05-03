@@ -1,0 +1,13 @@
+ERC report (11/25/2020 12:31:13 AM, Encoding UTF8 )
+
+***** Sheet /
+ErrType(6): Mismatch between hierarchical labels and pins sheets
+    @(227.33 mm, 100.33 mm): Hierarchical label MISO is not connected to a sheet label.
+ErrType(12): Different net assigned to a shared pin in another unit of the same component
+    @(82.55 mm, 73.66 mm): Pin 7 on U3 is connected to both Net-(U3-Pad7) and /SCK
+
+***** Sheet /connectors1/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(139.70 mm, 87.63 mm): Pin 7 (Passive) of component J1 is unconnected.
+
+ ** ERC messages: 3  Errors 1  Warnings 2
