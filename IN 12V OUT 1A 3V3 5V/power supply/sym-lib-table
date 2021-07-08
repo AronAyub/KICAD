@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TPS61032PWPR)(type Legacy)(uri "${KIPRJMOD}/with battery/libs/TPS61032PWPR.lib")(options "")(descr ""))
+)
