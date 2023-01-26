@@ -33,11 +33,13 @@ In this repository I have provided my previous KICAD PCB Designs for:
 ![rasphat_proj21](https://user-images.githubusercontent.com/55284959/214675924-c1fc80a2-f506-4f5d-ba67-aadaa8a51cc5.png)
 
 ### Rf 2.45ghz support circuit
-
+- the circuit schematic is in the folder 
 
 ### STRF-Kicad master
+- the circuit schematic is in the folder
 ### 3-phase circuit
+- the circuit schematic is in the folder
 ### Transmitter Circuit 
-
+- the circuit schematic is in the folder
 
 
