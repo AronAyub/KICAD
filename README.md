@@ -1,6 +1,7 @@
 # KICAD
 - **Some Old designs, this is where i began ! **
-kicad design projects
+- kicad design projects
+  
 In this repository I have provided my previous KICAD PCB Designs for:
 ### Arduino hat
 - this is a complete arduino hat, check the folder for files! it is among my first designs 
