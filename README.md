@@ -1,5 +1,5 @@
 # KICAD
-
+- **Some Old designs, this is where i began ! **
 kicad design projects
 In this repository I have provided my previous KICAD PCB Designs for:
 ### Arduino hat
